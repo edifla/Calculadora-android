@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFundo"
+    android:paddingLeft="20dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/images"
+        />
+
+    <EditText
+        android:id="@+id/edt_val1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Valor A"
+        android:textSize="40dp"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="50dp"
+        />
+
+    <EditText
+        android:id="@+id/edt_val2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Valor B"
+        android:textSize="40dp"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="120dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="X"
+        android:textSize="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="170dp"
+            />
+
+    <EditText
+        android:id="@+id/edt_val3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Valor C"
+        android:inputType="numberDecimal"
+        android:textSize="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="220dp"
+         />
+
+    <TextView
+
+        android:id="@+id/edt_val4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Valor X"
+        android:inputType="numberDecimal"
+        android:layout_marginLeft="220dp"
+        android:textSize="40dp"
+        android:layout_marginTop="130dp"
+         />
+
+    <Button
+        android:id="@+id/btn_limpar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Limpar"
+        android:textSize="15dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="20dp"
+         />
+
+    <Button
+        android:id="@+id/btn_sair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fechar"
+        android:textSize="15dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="260dp"
+        />
+
+    <Button
+        android:id="@+id/btn_calcD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diretamente"
+        android:textSize="15dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="240dp"
+        />
+
+    <Button
+        android:id="@+id/btn_calcI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inversamente"
+        android:textSize="15dp"
+        android:layout_marginTop="270dp"
+        />
+
+    <TextView
+        android:id="@+id/txt_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Resultado"
+        android:textSize="40dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="90dp"
+         />
+
+</RelativeLayout>
